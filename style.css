@@ -258,6 +258,11 @@ section{
     text-decoration: none;
     color: var(--DarkGrayishBlue);
     font-size: 1.8rem;
+    transition: all 300ms ease;
+}
+
+.footer__links:hover{
+    color: var(--StrongCyan);
 }
 
 .up{align-self: flex-start;}
